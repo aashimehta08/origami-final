@@ -1,0 +1,70 @@
+.header{
+    background-color: #DDA0DD;
+    color: #FFFAF0;
+    display: flex;
+    justify-content: space-between;
+    font-family:cursive;  
+    font-size: larger ; 
+}
+
+h1{
+    margin-left: 30px;
+}
+
+.header a{
+    margin-right: 30px;
+}
+
+
+body {
+    background-color: #E0FFFF;
+    margin: 0px;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: 2px solid #DDA0DD;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    width: 310px;
+    font-family: fantasy;
+    padding: 2px;
+    margin: 20px;
+}
+
+p{
+    padding: 10px;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: cornsilk;
+}
+a{
+    text-decoration: none;
+}
+
+.origami:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
